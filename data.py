@@ -23,7 +23,7 @@ engine = create_async_engine(DATABASE_URL, echo=True)
 async_session = async_sessionmaker(engine, expire_on_commit=False,class_=AsyncSession)
 Session=sessionmaker(bind=engine)
 Base = declarative_base()
-
+#create column name
 class Customer(Base):
     __tablename__='sales'
     transaction_date=Column(Date)
