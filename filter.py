@@ -34,7 +34,7 @@ def get_user():
                        'payment_method':data.payment_method,
                        'location':data.location })
     return jsonify({'Data':result})
-
+# GET Method
 @app.route('/filter',methods=['GET'])
 def filter_by_pay():
     pay_method=request.args.get('payment_method')
