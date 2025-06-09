@@ -7,7 +7,7 @@ app=Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:Root%40123@localhost/coffee'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 db=SQLAlchemy(app)
-# List columns
+# List column
 class Listing(db.Model):
     __tablename__='sales'
     transaction_date=db.Column(db.Date)
