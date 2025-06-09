@@ -1,0 +1,21 @@
+# Ignore Python packages and environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env/
+.venv/
+venv/
+env/
+*.egg
+*.whl
+*.pyd
+*.so
+*.dll
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore installed packages (if saved locally)
+site-packages/
+# Ignore CSV files
+*.csv
