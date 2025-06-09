@@ -1,6 +1,5 @@
 # Ignore Python packages and environments
 __pycache__/
-*.py[cod]
 *.egg-info/
 .env/
 .venv/
